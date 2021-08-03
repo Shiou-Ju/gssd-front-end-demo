@@ -1,0 +1,58 @@
+/* Modal */
+#modal > div > div.modal-content{
+  padding: 0 5px 0 5px;
+  margin: 5px;
+}
+
+#modal > div > div.modal-content > form{
+  margin: 3px;
+}
+
+.btn{
+  padding: 4px 5px;
+  margin: 3px;
+}
+
+#modal > div > div.modal-content > form > div{
+  margin: 0px;
+  font-size: 12px;
+}
+
+#modal > div > div.modal-content > p{
+  font-size: 10px;
+  margin: 1px;
+  max-width: 100%;
+}
+
+#modal > div > div.modal-content > h1{
+  padding: 0;
+  font-size: 20px;
+}
+
+#modal > div > div.modal-content > form > input{
+  font-size: 12px;
+  margin: 2px;
+  margin-bottom: 9px;
+}
+
+/* button */
+#send-form{
+  text-align: center;
+  margin-left: 115px !important;
+}
+
+#contact-form{
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+}
+
+#forget-password{
+  margin-left: 110px !important;
+  margin-bottom: 40px;
+}
+
+#forget-password-mobile{
+  text-align: center;
+  margin-left: 105px !important;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="公示送達訂閱服務" />
+    <meta name="keywords" content="公示送達" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:767px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:330px)"
+      href="css/mobile-small.css"
+    />
+    <title>公示送達訂閱服務 | 服務內容</title>
+  </head>
+  <script
+    src="https://kit.fontawesome.com/ead2846219.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo">
+            <a href="index.html">公示送達訂閱服務 | 使用服務</a>
+          </h1>
+          <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a class="current" href="service.html">訂閱</a></li>
+            <li><a href="cancel.html">取消訂閱</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="service-form" class="py-3">
+      <section id="contact-form" class="py-3">
+        <div class="container">
+          <h1 class="l-heading"><span class="text-primary"> 立即</span>註冊</h1>
+          <form>
+            <div class="form-group">
+              <label for="name">應受送達人姓名</label>
+              <input type="text" name="name" id="name" />
+              <small id="email-small">錯誤訊息</small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+              <small>錯誤訊息</small>
+            </div>
+            <div class="form-group">
+              <label for="password">密碼</label>
+              <input type="password" name="password" id="password" />
+              <small>錯誤訊息</small>
+            </div>
+            <div class="form-group">
+              <label for="password2">驗證密碼</label>
+              <input type="password" name="password2" id="password2" />
+              <small>錯誤訊息</small>
+            </div>
+
+            <button type="submit" class="btn" id="send-form">送出</button>
+          </form>
+        </div>
+      </section>
+    </section>
+
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <div class="modal-header"></div>
+        <div class="modal-content">
+          <h1 class="l-heading">
+            請<span class="text-primary">詳細閱讀</span>說明
+          </h1>
+          <p>
+            1. 使用者於註冊前，需同意<a target="_blank" href="policy.html"
+              >使用者政策</a
+            >及此頁面各條款之內容。
+          </p>
+          <p>
+            2.
+            單一Email帳號僅得註冊一筆姓名，系統將僅根據該筆姓名進行資料檢索與通知，若需更改姓名請取消訂閱後重新註冊。
+          </p>
+          <p>
+            3.
+            訂閱期為180日，本服務將於到期後自動取消訂閱並寄送通知信告知已屆期；到期後如欲繼續使用，敬請重新訂閱。
+          </p>
+          <p>
+            4.
+            本服務保有一切調整提供服務內容之權利，包含但不限於訂閱期之延長縮短、資料提供態樣及終止服務。
+          </p>
+          <form class="modal-form">
+            <div>
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label id="check-label" for="checkbox"
+                >本人已閱讀<a target="_blank" href="policy.html">使用者政策</a
+                >並同意以上說明</label
+              >
+            </div>
+            <input type="submit" value="提交" class="submit-btn btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer id="main-footer">
+      <p>Bamboo Lin &copy; 2021, All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="公示送達訂閱服務" />
+    <meta name="keywords" content="公示送達" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:767px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:330px)"
+      href="css/mobile-small.css"
+    />
+    <title>公示送達訂閱服務 | 取消訂閱</title>
+  </head>
+  <script
+    src="https://kit.fontawesome.com/ead2846219.js"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo">
+            <a href="index.html">公示送達訂閱服務 | 取消訂閱</a>
+          </h1>
+          <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="service.html">訂閱</a></li>
+            <li><a class="current" href="cancel.html">取消訂閱</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">取消</span>訂閱</h1>
+        <form>
+          <div class="form-group">
+            <label for="email">您註冊使用的Email</label>
+            <input type="email" name="email" id="email" />
+            <small id="email-small">錯誤訊息</small>
+          </div>
+          <div class="form-group">
+            <label for="password">您的密碼</label>
+            <input type="password" name="password" id="password" />
+            <small>錯誤訊息</small>
+          </div>
+          <div class="form-group">
+            <label for="password2">再次輸入密碼以確認</label>
+            <input type="password" name="password2" id="password2" />
+            <small>錯誤訊息</small>
+          </div>
+          <button type="submit" class="btn" id="send-form">送出</button>
+          <button type="submit" class="btn btn-secondary" id="forget-password">
+            忘記密碼？
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <button
+      type="submit"
+      class="btn btn-secondary btn-res"
+      id="forget-password-mobile"
+    >
+      忘記密碼？
+    </button>
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="far fa-bell-slash fa-3x"></i>
+          <h3>取消訂閱</h3>
+          <p>您將不會再收到關於系統的通知</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email</h3>
+          <p>gssd.subscription@gmail.com</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-phone fa-3x"></i>
+          <h3>其他聯繫方式</h3>
+          <p>目前僅開放透過Email聯繫</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Bamboo Lin &copy; 2021, All Rights Reserved</p>
+    </footer>
+
+    <script src="script_cancel.js"></script>
+  </body>
+</html>
