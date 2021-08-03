@@ -1,124 +1,124 @@
-#navbar .logo{
+#navbar .logo {
   float: none;
   text-align: center;
 }
 
-#navbar ul, 
-#navbar li{
+#navbar ul,
+#navbar li {
   float: none;
 }
 
-#navbar li a{
+#navbar li a {
   padding: 5px;
   border-bottom: #444 dotted 1px;
 }
 
 /* showcase */
-#showcase{
+#showcase {
   height: 100%;
 }
 
-#showcase .showcase-content{
+#showcase .showcase-content {
   padding-top: 70px;
   padding-bottom: 30px;
 }
 
 /* home-info */
-#home-info{
+#home-info {
   height: 550px;
-}  
-#home-info .info-img{
+}
+#home-info .info-img {
   display: none;
 }
 
-#home-info .info-content{
+#home-info .info-content {
   float: none;
   width: 100%;
 }
 
 /* Boxes */
-.box{
+.box {
   float: none;
   width: 100%;
 }
 
 /* about */
 #about-info .info-right,
-#about-info .info-left{
+#about-info .info-left {
   float: none;
   width: 100%;
 }
 
-.l-heading{
+.l-heading {
   text-align: center;
 }
 
-#about-info .info-right{
+#about-info .info-right {
   margin-top: 30px;
 }
 
 #contact-form .form-group,
-#service-form .form-group{
+#service-form .form-group {
   margin-left: 45px;
 }
 
-#contact-form p{
+#contact-form p {
   margin-left: 45px;
   margin-right: 40px;
 }
 
 #contact-form button,
-#service-form button{
+#service-form button {
   margin-top: 20px;
   margin-left: 130px;
 }
 
-#contact-form input, 
+#contact-form input,
 #contact-form textarea,
-#service-form input, 
-#service-form textarea{
+#service-form input,
+#service-form textarea {
   width: 80%;
 }
 
-.form-group small{
+.form-group small {
   display: none;
 }
 
-.form-group.error small{
-  display:block;
+.form-group.error small {
+  display: block;
 }
 
-.btn-secondary{
+.btn-secondary {
   display: none;
 }
 
-.btn-res{
-    margin-left: 500px;
-    margin-right: 20px; 
-    text-align: center;
-    margin-left: 125px;
-    margin-top: 0;
-    display: block;
+.btn-res {
+  margin-left: 500px;
+  margin-right: 20px;
+  text-align: center;
+  margin-left: 125px;
+  margin-top: 0;
+  display: block;
 }
 
-small.sent{
-  display:block;
+small.sent {
+  display: block;
 }
 
 /* Contact */
-#contact-info .box{
+#contact-info .box {
   border-bottom: #444 dotted 1px;
 }
 
 /* modal */
-.modal{
+.modal {
   background-color: #fff;
-  border-radius: 5px ;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3) ;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   position: absolute;
   overflow: hidden;
   top: 50%;
-  left:50%;
+  left: 50%;
   max-width: 90%;
   width: 800px;
 }
@@ -135,11 +135,11 @@ small.sent{
 }
 
 /* 使用者政策 */
-.policy-articles{
+.policy-articles {
   max-width: 80%;
 }
 
-#policy-title{
+#policy-title {
   font-size: 20px;
   margin: auto;
 }
